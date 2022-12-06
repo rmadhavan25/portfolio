@@ -1,0 +1,39 @@
+.abt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+    background-color: hsla(0, 0%, 100%, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 40px;
+    /* border: 2px solid black; */
+    min-width: 400px
+    /* margin: 100px; */
+}
+
+.abt-content{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+ .abt-h4{
+    font-size: 20px;
+    color: rgb(84, 85, 85);
+    font-weight: 450;
+}
+
+.abt-h1{
+    font-size: 50px;
+    font-weight: 400;
+} 
+
+/* .abt-img-div{
+ 
+} */
+
+.abt-img{
+    min-width: 50px;
+    max-width: 300px;
+}

@@ -1,0 +1,27 @@
+.header{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.hd-h2{
+    display: inline;
+    color: slategray;
+    margin-left: 100px;
+}
+
+.hd-ul{
+    float: right;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+li>a{
+    text-decoration: none;
+    color: slategray;
+    padding: 25px 30px 15px;
+    text-align: left;
+    font-size: 18px;
+}
