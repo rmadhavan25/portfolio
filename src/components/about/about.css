@@ -8,9 +8,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding: 40px;
-    /* border: 2px solid black; */
     min-width: 400px
-    /* margin: 100px; */
 }
 
 .abt-content{
@@ -29,11 +27,13 @@
     font-weight: 400;
 } 
 
-/* .abt-img-div{
- 
-} */
+
 
 .abt-img{
     min-width: 50px;
     max-width: 300px;
 }
+
+/* .abt-col1{
+    text-align: center;
+} */
