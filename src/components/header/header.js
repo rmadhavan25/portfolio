@@ -7,15 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 class Header extends React.Component{
     render(){
         return(
-            // <div className='header'>
-            //     <h2 className='hd-h2'>Madhavan</h2>
-            //     <ul className='hd-ul'>
-            //         <li className='hd-li-about'><a href='#About'>About</a></li>
-            //         <li className='hd-li-work'><a href='#Work'>Work</a></li>
-            //         <li className='hd-li-contact'><a href='#Contact'>Contact</a></li>
-            //     </ul>   
-            // </div>
-            <Navbar bg='light' variant='light' expand='lg'sticky='top'>
+            <Navbar bg='light' variant='light' expand='md'sticky='top'>
                 <Container>
                     <Navbar.Brand href="#home">Madhavan</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -5,11 +5,7 @@ import './workCard.css';
 class WorkCard extends React.Component{
     render(){
         return(
-            // <div className="work-card">
-            //     <p>Title</p>
-            //     {/* images,clickable component */}
-            // </div>
-            <Container className="work-card">
+            <Container className="workCard-container mt-5">
                 <p>Title</p>
             </Container>
         );

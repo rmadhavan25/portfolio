@@ -9,36 +9,11 @@ import './contact.css';
 class Contact extends React.Component {
     render() {
         return (
-            // <div className="contact">
-            //     <h2>Have a question?</h2>
-            //     <h2>Book a 15-minutes free call</h2>
-
-            //     <div className="form-div">
-            //         <form action="#" className="form">
-            //             <label>
-            //                 Enter your name :
-            //             </label>
-            //             <input type="text" id="name"></input>
-
-            //             <label>
-            //                 Enter your email address :
-            //             </label>
-            //             <input type="email" id="email"></input>
-
-            //             <label>
-            //                 Your message :
-            //             </label>
-            //             <textarea></textarea>
-            //             <input className="sbt-btn" type="submit" value="Submit your message"></input>
-            //         </form>
-            //     </div>
-            // </div>
-            <Container className="ct-container">
-                <Row className="ct-question-row">
-                    <h2>Have a question?</h2>
-                    <h2>Book a 15-minutes free call</h2>
+            <Container className="contact-container mt-5">
+                <Row className="contact-question-row">
+                    <h2>Have a question? Book a 15-minutes free call</h2>
                 </Row>
-                <Row>
+                <Row className="contact-form-row mt-4">
                 <Col lg='2'>
 
                 </Col>
@@ -56,7 +31,7 @@ class Contact extends React.Component {
                                 <Form.Label>Your Message</Form.Label>
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
-                            <Button type="submit">Book</Button>
+                            <Button className="mb-4" type="submit">Book</Button>
                         </Form>
                     </Col>
                     <Col lg='2'>
