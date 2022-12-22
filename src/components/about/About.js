@@ -5,8 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './about.css';
 
-class About extends React.Component{
-    render(){
+function About (props){
         return(
             <Container className="about-container">
                 <Row className="about-row">
@@ -15,13 +14,12 @@ class About extends React.Component{
                         <h4 className="about-h4">Get personalised website for any type of business and<br></br> all year round maintenance</h4>
                     </Col>
                     <Col md='3' className="about-col-img">
-                        <Image className='about-img' fluid='true' rounded='true' src={require("E:/portfolio/src/assets/take-off.png")}>
+                        <Image className='about-img' fluid='true' rounded='true' src = {props.img}>
                         </Image>
                     </Col>
                 </Row>
             </Container> 
         );
-    }
 }
 
 export default About

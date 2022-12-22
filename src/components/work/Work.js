@@ -11,7 +11,7 @@ class Work extends React.Component {
         return (
             <Container>
                 <Row className='work-row-1 mt-5'>
-                    <Col md='3'className="work-col-img">
+                    <Col md='3' className="work-col-img">
                         <Image className="work-img" fluid='true' rounded='true' src={require("E:/portfolio/src/assets/tailor-made-2.png")}>
 
                         </Image>
@@ -19,7 +19,7 @@ class Work extends React.Component {
                     <Col md='1'></Col>
                     <Col md='8' className="work-col-text">
                         <h1>
-                            I create tailored websites for small businesses and start-ups 
+                            I create tailored websites for small businesses and start-ups
                         </h1><br></br>
                         <h4>Help them reach bigger audiences</h4>
                     </Col>
@@ -39,24 +39,48 @@ class Work extends React.Component {
                 </Row>
                 <Row className="workCard-row-1">
                     <Col>
-                        <WorkCard></WorkCard>
+                        <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                     <Col>
-                        <WorkCard></WorkCard>
+                    <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                     <Col>
-                        <WorkCard></WorkCard>
+                    <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                 </Row>
                 <Row className="workCard-row2">
                     <Col>
-                        <WorkCard></WorkCard>
+                    <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                     <Col>
-                        <WorkCard></WorkCard>
+                    <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                     <Col>
-                        <WorkCard></WorkCard>
+                    <WorkCard
+                            img={require("E:/portfolio/src/assets/tailor-made-2.png")}
+                            title="Card Title"
+                            desc="Some quick example text to build on the card title and make up the bulk of the card's content."
+                        />
                     </Col>
                 </Row>
             </Container>

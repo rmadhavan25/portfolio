@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header></Header>
       <section id="About">
-        <About></About>
+        <About img={require("E:/portfolio/src/assets/take-off.png")}></About>
       </section>
       <section id='Work'>
         <Work></Work>
